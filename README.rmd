@@ -1,12 +1,12 @@
 # paperpiler
-Function to generate ris files from Digital object identifiers (doi) for import in paperpile.
+R-package ```paperpiler``` contains a function to generate ris files from Digital object identifiers (doi) for import in paperpile.
 
 
 ## Installation
 ```r
 install.packages("devtools")
 library(devtools)
-install_github("paulcbauer/citationsr")
+install_github("paulcbauer/paperpiler")
 ```
 
 
