@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "# paperpiler\nFunction to generate ris files from Digital object identifiers (doi) for import in paperpile.\n",
+    "created" : 1502290184472.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3249667494",
+    "id" : "2746BA0C",
+    "lastKnownWriteTime" : 1502290253,
+    "last_content_update" : 1502290253519,
+    "path" : "C:/GoogleDrive/7-Software/paperpiler/README.md",
+    "project_path" : "README.md",
+    "properties" : {
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "markdown"
+}
