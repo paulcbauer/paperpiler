@@ -1,2 +1,24 @@
 # paperpiler
 Function to generate ris files from Digital object identifiers (doi) for import in paperpile.
+
+
+## Installation
+```r
+install.packages("devtools")
+library(devtools)
+install_github("paulcbauer/citationsr")
+```
+
+
+## Usage
+```gen_ris()``` function creates folder ```ris-files``` in working directory and stores a ris file for each doi in object ```dois``` in the folder.
+
+```r
+library(paperpiler)
+setwd("...")
+dois <- c("10.1177/0022002715606217", "10.1111/rode.12315", "10.1111/rode.12314", 
+"10.1111/rode.12293", "10.1111/1475-6765.12203", "10.1016/j.worlddev.2017.02.023", 
+"10.1016/j.worlddev.2017.03.032", "10.1098/rstb.2016.0166", "10.1162/REST_a_00599", 
+"10.1016/j.chieco.2017.04.003")
+gen_ris(dois)
+```
