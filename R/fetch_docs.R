@@ -1,7 +1,9 @@
 #' Fetches documents from paperpile gdrive folder and copies to folder.
 #'
 #' @param paperpile_dir The directory of the paperpile folder.
-#' @return Returns a .ris file that can be imported into paperpile.
+#' @param folder folder...
+#' @param file file...
+#' @return Makes copies of relevant PDFs and stores them in folder.
 
 
 fetch_docs <- function(paperpile_dir, folder, file) {
