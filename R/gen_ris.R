@@ -11,21 +11,22 @@ gen_ris <- function(dois, singlefile=TRUE){
     dois <- dois
 
     if(singlefile==TRUE){
-    
-    
+
+    length.dois <- length(dois)
+
     fileConn <- file("./records.ris")
     writeLines(c(rbind(
-      
+
       rep("TY  - JOUR", length.dois), # Journal article
       paste("DO  - ", dois, sep=""), # DOI
       rep("ER  -", length.dois)
-      
+
       )) # Separator
     , fileConn)
     close(fileConn)
 
     }else{
-    
+
     dir.create("./ris-files/")
     length.dois <- length(dois)
     for (i in 1:length(dois)){ #
@@ -37,7 +38,7 @@ gen_ris <- function(dois, singlefile=TRUE){
     }
 
     }
-    
+
 }
 
 
